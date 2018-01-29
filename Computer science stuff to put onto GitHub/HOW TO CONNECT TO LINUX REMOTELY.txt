@@ -1,0 +1,19 @@
+
+(How to edit files in linux)
+gedit my.cpp (doesn't exist everywhere and is used to edit stuff)
+
+nano my.cpp (exists everywhere but is hard to use linux tool. Doesn't have a cursor)
+
+vin my.cpp (hardcore primative linux editting tool)
+
+(How to connect remotely to linux lab computers)
+WHat does it mean to work there remotely? You come home,
+you start your computer and you connect to linux lab.
+How can you work in linux lab from home?
+
+For windows
+1. You need to get something called Putty(ssh-client) Putty program gives you the same ability as terminal in MAC
+2. type command "ssh -X (then enter your username without parenthasis)@eniac.cs.hunter.cuny.edu" it's very important that the X is capital and not lower case.
+3. You will most likely see warning "You've never connected to this server before, are you sure you want to connect?"
+4. You'll see something like "password:" when you type, nothing will appear. The security system makes it so that when you type, you have to type your password blindly.
+5. Once you'are connected pwd cd everything that we discussed so far. gedit my.cpp
